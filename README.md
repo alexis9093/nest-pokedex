@@ -24,6 +24,10 @@ docker-compose up -d
 ```
 yarn start:dev
 ```
+7. Reconstruir la base de datos con la semilla
+```
+localhost:3000/api/v2/seed
+```
 
 ## Stack usado
 * MongoDB
