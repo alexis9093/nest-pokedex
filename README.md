@@ -12,19 +12,19 @@ yarn install
 ```
 npm i -g @nestjs/cli
 ```
-4. Crear el archivo de entorno
-```
-cp .env.example .env
-```
-5. Levantar la base de datos
+4. Levantar la base de datos
 ```
 docker-compose up -d
 ```
-6. Iniciar la app
+5. clonar el archivo ```.env.template``` y renombrar la copa a ```.env```
+
+6. Llenar las varibales de entorno definidas en el ```.env```
+
+7. Ejecutar la aplicación en dev:
 ```
 yarn start:dev
 ```
-7. Reconstruir la base de datos con la semilla
+8. Reconstruir la base de datos con la semilla
 ```
 localhost:3000/api/v2/seed
 ```
